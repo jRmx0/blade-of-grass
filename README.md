@@ -8,11 +8,11 @@ This is the **meta repository**. It holds the overview and architecture, and lin
 
 | Part | Repo | What it is | Status |
 |---|---|---|---|
-| **rmx-server** | [rmx-vps](https://github.com/jRmx0/rmx-vps) | Server infrastructure: hardened Ubuntu VPS, Docker Compose, Caddy (HTTPS, secure WebSockets), Mosquitto (MQTT over TLS) | ✅ Running |
-| | [rmx-backend-probe](https://github.com/jRmx0/rmx-backend-probe) | Learning / diagnostic Rust service: a minimal MQTT → Postgres → HTTP/WSS stack that rehearses the backend toolchain and tests the server end to end | 🔜 Next |
-| | [rmx-backend](https://github.com/jRmx0/rmx-backend) | Production Rust backend: telemetry ingest, TimescaleDB storage, REST/WebSocket API, serves rmx-client | 📋 Planned |
-| **rmx-mower** | [rmx-mower](https://github.com/jRmx0/rmx-mower) | Mower firmware: sensors, motion and blade control, MQTT link to the server | 📋 Planned |
-| **rmx-client** | [rmx-client](https://github.com/jRmx0/rmx-client) | Client app to monitor and control the mower, served by rmx-backend | 📋 Planned |
+| **rmx-server** | [rmx-vps](https://github.com/rmx-lt/rmx-vps) | Server infrastructure: hardened Ubuntu VPS, Docker Compose, Caddy (HTTPS, secure WebSockets), Mosquitto (MQTT over TLS) | ✅ Running |
+| | [rmx-backend-probe](https://github.com/rmx-lt/rmx-backend-probe) | Learning / diagnostic Rust service: a minimal MQTT → Postgres → HTTP/WSS stack that rehearses the backend toolchain and tests the server end to end | 🔜 Next |
+| | [rmx-backend](https://github.com/rmx-lt/rmx-backend) | Production Rust backend: telemetry ingest, TimescaleDB storage, REST/WebSocket API, serves rmx-client | 📋 Planned |
+| **rmx-mower** | [rmx-mower](https://github.com/rmx-lt/rmx-mower) | Mower firmware: sensors, motion and blade control, MQTT link to the server | 📋 Planned |
+| **rmx-client** | [rmx-client](https://github.com/rmx-lt/rmx-client) | Client app to monitor and control the mower, served by rmx-backend | 📋 Planned |
 
 ## Architecture
 

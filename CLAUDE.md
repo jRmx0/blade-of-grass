@@ -16,7 +16,7 @@ Applies to this repo and every component repo cloned inside it (`rmx-server/*`, 
 | Priority | High, Medium, Low |
 | Area | Firmware, Modem, Backend, Client, Infra, Docs |
 
-Issue types: Task, Bug, Feature (Epic for parents, once added in the org settings). Cross-cutting work (protocol, docs) goes in this repo's issues.
+Issue types: Task, Bug, Feature, and Epic for parent issues that group sub-issues. Cross-cutting work (protocol, docs) goes in this repo's issues.
 
 ## Rules
 
